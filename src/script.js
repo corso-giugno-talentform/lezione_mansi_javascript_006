@@ -13,8 +13,16 @@ const lista = document.getElementById('lista-prodotti');
 
 const htmlelements = utenti.map(utente =>
     `<li>
-        <span>${utente.nome} - Email: ${utente.email}</span>
+        <span class="font-da-ereditare">${utente.nome} - Email: ${utente.email}</span>
     </li>`
 ).join('')
 
 lista.innerHTML = htmlelements;
+
+const h2 = document.querySelector('h2');
+
+function cambiaColore() {
+    h2.style.color = '#5cdd05';
+    h2.style.fontSize = '78px'
+
+}

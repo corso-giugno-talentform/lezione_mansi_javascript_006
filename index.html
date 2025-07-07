@@ -4,7 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Lezione 006</title>
-
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+            rel="stylesheet">
         <link rel="stylesheet" href="src/style.css">
         <!-- <style>
             .colorami-il-titolo{
@@ -20,10 +24,16 @@
     <body>
 
         <!-- <h1 style="color:#18516F;">Titolo</h1> -->
-        <h2 class="colorami-il-titolo testo-grosso">Titolo 2</h2>
-        <ul id="lista-prodotti">
+        <h1 class="lato-regular text-center">Titolo Nuovo</h1>
 
-        </ul>
+        <h2 class="colorami-il-titolo testo-grosso">Titolo 2</h2>
+        <div>
+            <img src="https://picsum.photos/id/237/200/300" class="immagine"
+                alt>
+        </div>
+        <button type="button" onclick="cambiaColore();">Cambia Colore</button>
+        <ul class="lato-thin" id="lista-prodotti"></ul>
         <script src="src/script.js"></script>
+
     </body>
 </html>
